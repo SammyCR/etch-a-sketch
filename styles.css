@@ -1,0 +1,12 @@
+#gridContainer{
+    display: inline-grid;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
+.color{
+    background-color: black;
+}
+#clearButton{
+    display: block;
+}

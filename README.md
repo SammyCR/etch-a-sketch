@@ -1,1 +1,1 @@
-# etch-a-sketch
+A webpage that creates a grid of blocks. When you pass your mouse over a block, it changes color, creating a basic "etch-a-sketch"
