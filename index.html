@@ -5,8 +5,23 @@
         <title>Etch-A-Sketch</title>
     </head>
     <body>
-        <div id="gridContainer"></div>
-        <button id="clearButton">Clear</button>
+        <div id="content">
+            <div id="header">
+                <h1>Etch a Sketch</h1>
+            </div>
+            <form>
+                <input type="radio" name="color" value="black" id="blackButton" checked> <span class="radio">Black</span>
+                <input type="radio" name="color" value="random" id="randomButton"> <span class="radio">Random Colors</span>
+                <input type="radio" name="color" value="darken" id="darkenButton"> <span class="radio">Darken</span>
+            </form>
+            <div id="gridContainer"></div>
+            <div id="clearDiv">
+                <button id="clearButton">Clear</button>
+            </div>
+            <div class="footer">
+                    <p class="footerText">Made with ❤️ by Sammy CR</p>
+            </div>
+        </div>
     </body>
     <script type="text/javascript" src="scripts.js"></script>
 </html>
